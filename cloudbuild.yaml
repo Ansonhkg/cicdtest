@@ -10,6 +10,10 @@ steps:
   - --key=cloudbuild-env
 
 # Install
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install', '--save', 'nuxt']
+
+# Install
 - name: 'gcr.io/cloud-builders/yarn'
   args: ['dev']
 
