@@ -25,5 +25,5 @@ steps:
 #   args: ['build']
 
 # Deploy
-- name: 'gcr.io/$PROJECT_ID/firebase'
-  args: ['use', '--add', $FIREBASE_TOKEN]
+- name: 'gcr.io/$FIREBASE_TOKEN/firebase'
+  args: ['use', '--add', 'first-b01cf']
