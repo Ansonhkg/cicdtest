@@ -8,11 +8,11 @@ steps:
   - --location=global
   - --keyring=myproject
   - --key=cloudbuild-env
-  
+
 # Install
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
 
 # Build
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['run', 'build']
+  args: ['run', 'deploy']
