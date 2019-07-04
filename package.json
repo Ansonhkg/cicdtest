@@ -17,7 +17,7 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "deploy": "firebase deploy --debug --token \"$FIREBASE_TOKEN\""
+    "deploy": "firebase deploy --debug --token 1/zRdfbwpPvNY4gGqg9lwzruA_khC8HoicCdz6K4VC5k36fwJFksWkMcCctrze2qZx"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
