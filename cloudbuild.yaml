@@ -27,4 +27,4 @@ steps:
 # Deploy
 - name: 'gcr.io/$PROJECT_ID/firebase'
   args: ['list']
-  secretEnv: ['FIREBASE_TOKEN']
+  secretEnv: ['1/QovhgQUR6D3o5zW1dvO92mFhUFXxAi_HcBYWJ54XEIs']
