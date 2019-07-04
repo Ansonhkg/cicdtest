@@ -9,6 +9,10 @@ steps:
   - --keyring=myproject
   - --key=cloudbuild-env
 
+# Install
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install']
+  
 # Install Nuxt
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install', '--save', 'nuxt']
