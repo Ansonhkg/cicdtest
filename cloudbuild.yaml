@@ -25,5 +25,5 @@ steps:
 #   args: ['build']
 
 # Deploy
-- name: 'gcr.io/cloud-builders/npm'
-  args: ['run', 'deploy']
+- name: 'gcr.io/cloud-builders/yarn'
+  args: ['deploy']
