@@ -10,8 +10,8 @@ steps:
   - --key=cloudbuild-env
 
 # Install
-# - name: 'gcr.io/cloud-builders/npm'
-#   args: ['install']
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install']
   
 # # Install Nuxt
 # - name: 'gcr.io/cloud-builders/npm'
@@ -27,4 +27,3 @@ steps:
 # Deploy
 - name: 'gcr.io/$PROJECT_ID/firebase'
   args: ['use', '--add', 'first-b01cf']
-  secretEnv: ['FIREBASE_TOKEN']
