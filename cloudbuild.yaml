@@ -13,16 +13,16 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
   
-# Install Nuxt
-- name: 'gcr.io/cloud-builders/npm'
-  args: ['install', '--save', 'nuxt']
+# # Install Nuxt
+# - name: 'gcr.io/cloud-builders/npm'
+#   args: ['install', '--save', 'nuxt']
 
-# Install
-- name: 'gcr.io/cloud-builders/yarn'
+# # Install
+# - name: 'gcr.io/cloud-builders/yarn'
 
-# Build
-- name: 'gcr.io/cloud-builders/yarn'
-  args: ['build']
+# # Build
+# - name: 'gcr.io/cloud-builders/yarn'
+#   args: ['build']
 
 # Deploy
 - name: 'gcr.io/$PROJECT_ID/firebase'
