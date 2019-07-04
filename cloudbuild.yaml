@@ -26,4 +26,4 @@ steps:
 
 # Deploy
 - name: 'gcr.io/$PROJECT_ID/firebase'
-  args: ['deploy']
+  args: ['use', '--add', 'first-b01cf']
