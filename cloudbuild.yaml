@@ -10,9 +10,9 @@ steps:
   - --key=cloudbuild-env
 
 # Install
-- name: 'gcr.io/cloud-builders/npm'
-  args: ['install']
+- name: 'gcr.io/cloud-builders/yarn'
+  args: ['dev']
 
 # Build
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['run', 'deploy']
+  args: ['build']
